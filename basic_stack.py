@@ -38,7 +38,7 @@ class Stack:
     return self.size == 0
 
 # Testing the stack class
-bts_members = Stack()
+bts_members = Stack(8)
 members = ["Yoongi", "Taehyung", "Namjoon", "Jungkook", "Hoseok", "Jin", "Jimin", "Bang PD"]
 
 for member in members:
